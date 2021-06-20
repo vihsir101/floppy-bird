@@ -1,5 +1,7 @@
 # Floppy Bird
 
+Made by Saunak Karnati and Vihaan Siramdas
+
 ## Video Demo:
 https://www.youtube.com/watch?v=hCLvE9RtSCE
 
@@ -44,12 +46,12 @@ Handles the dying of the player and the player movement. The 'immortal' and 'mor
 
 #### Power Up
 
-Spawns random power ups with a 25% chance of spawning every 20 seconds
+Spawns random power ups with a 25% chance of spawning every 20 seconds. This script is really close to the Pipe Generation script.
   
 
 #### Power Up Bar
 
-Shows the Power Up Bar when you collect a power up and shows the timer going down
+Shows the Power Up Bar when you collect a power up and shows the timer going down.
   
 
 #### Power Up Handler
@@ -59,30 +61,35 @@ Activates the powerup when you collect it and removes the powerup effect after s
 
 #### Scoreboard
 
-Adds points to the scoreboard everytime you go through a pipe throughout the game
+Adds points to the scoreboard everytime you go through a pipe throughout the game.
   
 
 #### Score Manager
 
-Handles the scoring and best score calculating logic
+Handles the scoring and best score calculating logic.
   
 
 #### Scorer
 
-Calls the scoring function from score manager when the player passes through a pipe
+Calls the scoring function from the score manager when the player passes through a pipe, adding 10 points.
   
 
 #### X button
 
 Closes the game when you press the Exit Button
  
-#### Future Enhancements
+## Future Enhancements
 Some features we would like to add:
 * You can sign in and out
 * You can move 3 dimensionally
 * Max score can be retained across different machines for a user
 * A shop system where you can collect coins throughout the game and use them in the shop for different power ups, levels, and player skins.
 
+## Some Problems We Encountered
+* We decided that the pipes and ground should move while the player is only moving in a y direction, but making the ground move was hard. We decided that the ground will move at the same speed of the pipe and teleport back to the start once you reach the end of the ground. You can still see the flash from the teleportation
+* When making the player, we had several models but they looked weird because the eyes were weird. So we removed the eyes and found the model that looked the best
+* The powerups were a major challenge since we had errors in the generation, activation, and the deactivation but we got it eventually. :)
 
 ## Game Link:
 https://play.unity.com/mg/other/floppy-bird-1
+Hope you enjoy!!! :P

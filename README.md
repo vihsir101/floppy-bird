@@ -4,7 +4,7 @@
 https://www.youtube.com/watch?v=hCLvE9RtSCE
 
 ## Description:
-  This project is Flappy Bird but in 3D and with powerups. You can press space to jump and powerups have a 25% chance of spawning every 20 seconds. As the bird flys, you have to go through each pair of pipes by jumping. The pipes will spawn forever with varying heights and because of that the gaps between each pipe will vary in vertical height. 
+  This project is Flappy Bird but in 3D and with powerups. You can press space to jump and power ups have a 25% chance of spawning every 20 seconds. As the bird flies, you have to go through each pair of pipes by jumping. The pipes will spawn forever with varying heights and because of that the gaps between each pipe will vary in vertical height. 
 
   This project is developed in the Unity game engine; scripts were made using C#; player, pipe, and power up models were made in blender; and other assets were downloaded from Unity Asset Store.
 
@@ -39,12 +39,12 @@ Calls the reset function from the Game Management script when you click the play
 
 #### Player
 
-Handles the dieing of the player and the player movement. The 'immortal' and 'mortal' state makes it so that the player can be immune to the pipes for some time.
+Handles the dying of the player and the player movement. The 'immortal' and 'mortal' state makes it so that the player can be immune to the pipes for some time.
   
 
 #### Power Up
 
-Spawns random powerups with a 25% chance of spawning every 20 seconds
+Spawns random power ups with a 25% chance of spawning every 20 seconds
   
 
 #### Power Up Bar
@@ -64,7 +64,7 @@ Adds points to the scoreboard everytime you go through a pipe throughout the gam
 
 #### Score Manager
 
-Handles the scoring and best score calucating logic
+Handles the scoring and best score calculating logic
   
 
 #### Scorer
@@ -76,8 +76,13 @@ Calls the scoring function from score manager when the player passes through a p
 
 Closes the game when you press the Exit Button
  
+#### Future Enhancements
+Some features we would like to add:
+* You can sign in and out
+* You can move 3 dimensionally
+* Max score can be retained across different machines for a user
+* A shop system where you can collect coins throughout the game and use them in the shop for different power ups, levels, and player skins.
 
 
 ## Game Link:
 https://play.unity.com/mg/other/floppy-bird-1
-

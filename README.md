@@ -4,80 +4,80 @@
 https://www.youtube.com/watch?v=hCLvE9RtSCE
 
 ## Description:
-  This project is Flappy Bird but in 3D and with powerups. You can press space to jump and powerups have a 25% chance of spawning every 20 seconds. Try to get the highest score without touching the ground or the pipes. 
+  This project is Flappy Bird but in 3D and with powerups. You can press space to jump and powerups have a 25% chance of spawning every 20 seconds. As the bird flys, you have to go through each pair of pipes by jumping. The pipes will spawn forever with varying heights and because of that the gaps between each pipe will vary in vertical height. 
 
   This project is developed in the Unity game engine; scripts were made using C#; player, pipe, and power up models were made in blender; and other assets were downloaded from Unity Asset Store.
 
-**Best Score**
-<p>
-Displays the best score you got onto the text in the game over scene
-</p>
+#### Best Score
 
-**Game Management**
-<p>
-Starts the game everytime you play and contains the functions to stop and reset the game
-</p>
+Displays the best score you got onto the text in the game over scene, it also saves the score on the local disk.
 
-**Music Player**
-<p>
+#### Game Management
+
+Starts the game every time you play and contains the functions to stop and reset the game. It controls the start, stop, and overall gameplay.
+
+
+#### Music Player
+
 Plays the music at the start of the game.
-</p>
 
-**Pipe Generation**
-<p>
-Generates pipes every 5 seconds on a random y value. It also deletes the pipes after you pass through them
-  </p>
+
+#### Pipe Generation
+
+Generates pipes every 5 seconds on a random y value. It also deletes the pipes after you pass through them.
   
-**Pipes**
-<p>
+
+#### Pipes
+
 Moves the pipes forward
-  </p>
   
-**Play Button**
-<p>
+
+#### Play Button
+
 Calls the reset function from the Game Management script when you click the play button, allowing the player to play the game again
-  </p>
   
-**Player**
-<p>
-Handles the dieing of the player and the player movement
-  </p>
+
+#### Player
+
+Handles the dieing of the player and the player movement. The 'immortal' and 'mortal' state makes it so that the player can be immune to the pipes for some time.
   
-**Power Up**
-<p>
-Spawns the powerups with a 25% chance of spawning every 20 seconds
-  </p>
+
+#### Power Up
+
+Spawns random powerups with a 25% chance of spawning every 20 seconds
   
-**Power Up Bar**
-<p>
+
+#### Power Up Bar
+
 Shows the Power Up Bar when you collect a power up and shows the timer going down
-  </p>
   
-**Power Up Handler**
-<p>
-Activates the powerup when you collect it
-  </p>
+
+#### Power Up Handler
+
+Activates the powerup when you collect it and removes the powerup effect after some time.
   
-**Scoreboard**
-<p>
+
+#### Scoreboard
+
 Adds points to the scoreboard everytime you go through a pipe throughout the game
-  </p>
   
-**Score Manager**
-<p>
+
+#### Score Manager
+
 Handles the scoring and best score calucating logic
-  </p>
   
-**Scorer**
-<p>
-Calls the scoring function from score amanager when the player passes through a pipe 
-  </p>
+
+#### Scorer
+
+Calls the scoring function from score manager when the player passes through a pipe
   
-**X button**
-<p>
+
+#### X button
+
 Closes the game when you press the Exit Button
- </p>
+ 
 
 
 ## Game Link:
 https://play.unity.com/mg/other/floppy-bird-1
+
